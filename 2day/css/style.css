@@ -1,0 +1,85 @@
+a{
+	font-size: calc(100px / 2);
+	margin: calc(50px * 2);
+	text-decoration:none;
+	color: black;
+	line-height: 80px;
+
+}
+.line{
+	background: black;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+*{
+	font-family: 'arsenal-regular', arial;
+}
+:root{
+--color: #141414;
+--resh:calc(1vw + 1vh);
+--sec1:1,25s cubic-bezies(.2,.5,0,1)
+--sec2:2s cubic-bezies(.05, .5, 0, 1);
+}
+
+@font-face{
+	src:url("../fonts/arsenal-regular.woff2");
+	font-family:'arsenal-regular' arsenal-regular.woff2;
+}
+
+body{
+	background:#B0C4DE;
+}
+
+.magic-list{
+
+}
+
+.magic-list__item{
+
+}
+
+.magic-list__item:first-child{
+	
+}
+
+.magic-list__header{
+	transition: transform var(--transition);
+
+}
+
+.magic-list__item::before {
+	transition: transform var(--transition);
+
+}
+
+.magic-list__item:hover .magic-list__header,.magic-list__item:hover::before {
+
+}
+
+.cursor{
+
+}
+
+.magic-list__item:hover .cursor{
+	
+}
+
+.cursor__image{
+	transition: transform var(--transition-cursor);
+}
+
+.magic-list__item:hover .cursir__image {
+
+}
+#move:hover{
+	transform: translate(50px,0);
+}
+.object{
+	transition: all 0.3s ease-in-out;
+}
+
+.cifri{
+	font-size:15pt ;
+}
+
